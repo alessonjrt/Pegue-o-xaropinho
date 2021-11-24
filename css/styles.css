@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+}
+
+
+h2{
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 10px;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid {
+	width: 730px;
+	height: 730px;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url('../img/grid.jpg');
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px 33px 17px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px 17px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px 17px rgba(0,0,0,0.75);
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+	margin: 20px;
+	background-color: #441401;
+}
+
+.mole {
+	background-image: url("../img/sprite.png");
+	background-size: cover;
+}
+
+.dashboard{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
